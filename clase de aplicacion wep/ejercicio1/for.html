@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> formulario html</title>
+        <link rel="stylesheet" type="text/css" href="../estilosscc/estilos2.css">
+        <script src="../ejemplo js/ejercicioform.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Forulario</h1>
+            <form action="recibir_datos.php" method="POST" id="act">
+                <label for="numero1">Numero 1</label>
+                <input type="number" name="numero1" id="numero1" class="form-control mt-3">
+                <label for="numero2">Numero 2</label>
+                <input type="number" name="numero2" id="numero2" class="form-control mt-3">
+                <button type="submit" class="btn btn-primary col-12 mt-5" >Guardar datos</button>
+                <span id="res"></span>
+            </form>
+        </div>
+    </body>
+</html>
